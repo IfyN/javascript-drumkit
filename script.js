@@ -20,3 +20,50 @@ let snareSound = document.getElementById("snareSound");
 let tomSound = document.getElementById("tomSound");
 let tinkSound = document.getElementById("tinkSound");
 
+// add event listener to buttons
+clap.addEventListener("click", playClap);
+hihat.addEventListener("click", playHiHat);
+kick.addEventListener("click", playKick);
+openhat.addEventListener("click", playOpen);
+boom.addEventListener("click", playBoom);
+ride.addEventListener("click", playRide);
+snare.addEventListener("click", playSnare);
+tom.addEventListener("click", playTom);
+tink.addEventListener("click", playTink);
+
+
+function playClap() {
+  clapSound.play();
+}
+
+function playHiHat() {
+  hatSound.play();
+}
+
+function playKick() {
+  kickSound.play();
+}
+
+function playOpen() {
+  openSound.play();
+}
+
+function playBoom() {
+  boomSound.play();
+}
+
+function playRide() {
+  rideSound.play();
+}
+
+function playSnare() {
+  snareSound.play();
+}
+
+function playTom() {
+  tomSound.play();
+}
+
+function playTink() {
+  tinkSound.play();
+}
